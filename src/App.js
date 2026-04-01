@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './index.css';
+import profilePhoto from '../public/photo.png';
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 const PROJECTS = [
@@ -395,7 +396,7 @@ function Hero() {
           <div className="hero-photo-ring">
             <div className="ring-outer" />
             <div className="ring-inner" />
-            <img src="/photo.png" alt="Vishnu Varthan Prakash" className="hero-photo" />
+            <img src={profilePhoto} alt="Vishnu Varthan Prakash" className="hero-photo" />
           </div>
           <div className="hero-badge top-right">
             <div className="badge-dot" />
