@@ -351,7 +351,7 @@ function Hero() {
       <div className="hero-inner">
         <div className="hero-text">
           <div className="hero-greeting">
-            <span>👋</span> Hello, World!
+            <span>👋</span> Hello Everyone!
           </div>
           <h1 className="hero-name">
             Vishnu Varthan<br /><span className="highlight">Prakash</span>
