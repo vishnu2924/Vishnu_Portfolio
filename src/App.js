@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './index.css';
-import profilePhoto from '../public/photo.png';
+import profilePhoto from './IMG_8128.PNG';
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 const PROJECTS = [
