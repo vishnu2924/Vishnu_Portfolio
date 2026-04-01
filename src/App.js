@@ -370,8 +370,8 @@ function Hero() {
             <button className="btn btn-accent" onClick={() => scrollTo('contact')}>
               📬 Contact Me
             </button>
-            <a className="btn btn-ghost" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-              📄 Resume
+            <a href="/Resume.pdf" download="Vishnu_Resume.pdf" className="btn btn-ghost"
+>            📄 Resume
             </a>
           </div>
           <div className="hero-stats">
