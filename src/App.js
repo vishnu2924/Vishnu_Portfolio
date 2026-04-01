@@ -351,7 +351,7 @@ function Hero() {
       <div className="hero-inner">
         <div className="hero-text">
           <div className="hero-greeting">
-            <span>👋</span> Hello Everyone!
+            <span>👋</span> Hello, World!
           </div>
           <h1 className="hero-name">
             Vishnu Varthan<br /><span className="highlight">Prakash</span>
@@ -370,8 +370,8 @@ function Hero() {
             <button className="btn btn-accent" onClick={() => scrollTo('contact')}>
               📬 Contact Me
             </button>
-            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
-            📄 Resume
+            <a className="btn btn-ghost" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+              📄 Resume
             </a>
           </div>
           <div className="hero-stats">

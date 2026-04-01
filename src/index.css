@@ -1132,6 +1132,7 @@ body.dark-mode .tracker-table tr:hover td { background: rgba(255,255,255,0.03); 
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .dark-toggle { display: none; }
+  .mobile-menu .dark-toggle { display: flex; }
 }
 @media (max-width: 600px) {
   .projects-grid { grid-template-columns: 1fr; }
